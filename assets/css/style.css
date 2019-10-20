@@ -1,0 +1,124 @@
+body{
+    width: 100%;
+    text-align: center;
+    background-size: 100%;
+}
+
+.container {
+    margin: 1% 15% 15% 15%;
+
+
+}
+
+img {
+    position: relative;
+    height: 250px;
+    width: 300px;
+}
+
+#startBtn {
+font-size: 50px;
+margin-top: 5%;
+margin-bottom: 5%;
+font-family: 'Bangers', cursive;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: blue;
+}
+
+p{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+#game-play {
+    background-color: rgb(236, 236, 10);
+    padding-bottom: 150px;
+}
+
+#timer {
+    font-size: 25px;
+    padding: 2px;    
+}
+
+#currentQuestion {
+    font-size: 20px;
+}
+
+.question {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 25px;
+}
+
+.answerList{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+  
+}
+
+#correctedAnswer {
+    font-size: 20px;
+
+}
+#message {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#finalMessage {
+    font-size: 30px;
+    font-family: sans-serif;
+
+    margin-bottom: 10px;
+}
+#correctAnswers {
+    font-size: 20px;
+}
+#wrongAnswers{
+    font-size: 20px;
+    margin: 10px;
+}
+#unanswered {
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+#startAgainBtn {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: 10px;
+    /* padding-bottom: 150px;
+    padding-top: 50px; */
+    
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 80%;
+		size: 200%;
+    }}
+    
+.thisChoice:hover{
+    background-color: pink;
+}
+.thisChoice {
+    margin: 10px;
+}
+
+#startAgainBtn:hover{
+    background-color: pink;
+
+    
+}
