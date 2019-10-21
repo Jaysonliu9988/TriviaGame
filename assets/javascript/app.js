@@ -67,7 +67,7 @@ $(document).ready(function () {
         correct: "Correct!",
         incorrect: "Nope!",
         endTime: "Out Of Time!",
-        finished: "All done, heres how you did!",
+        finished: "All done, here's how you did!",
     }
 
     function startGame() {
@@ -159,10 +159,10 @@ $(document).ready(function () {
         }
         
         if (currentQuestion == (Questions.length - 1)) {
-            setTimeout(scoreBoard, 1000)
+            setTimeout(scoreBoard, 4000)
         } else {
             currentQuestion++;
-            setTimeout(newQuestion, 2000);
+            setTimeout(newQuestion, 4000);
         }
     }
 
