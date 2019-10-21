@@ -6,8 +6,6 @@ body{
 
 .container {
     margin: 1% 15% 15% 15%;
-
-
 }
 
 img {
@@ -17,16 +15,16 @@ img {
 }
 
 #startBtn {
-font-size: 50px;
-margin-top: 5%;
-margin-bottom: 5%;
-font-family: 'Bangers', cursive;
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: sans-serif;
 }
 
 h1{
     font-family: sans-serif;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 70px;
     margin-top: 10px;
     padding-top: 20px;
     padding-bottom: 60px;
@@ -54,7 +52,6 @@ p{
 
 .question {
     padding-top: 2%;
-    padding-bottom: 2%;
     font-size: 25px;
 }
 
@@ -62,34 +59,33 @@ p{
     font-size: 30px;
     font-family: sans-serif;
     font-weight: bolder;
-  
+    cursor: pointer;
 }
 
 #correctedAnswer {
-    font-size: 20px;
-
+    font-size: 30px;
+    color: red;
 }
 #message {
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     margin: 10px;
 }
 
 #finalMessage {
     font-size: 30px;
     font-family: sans-serif;
-
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 #correctAnswers {
-    font-size: 20px;
+    font-size: 25px;
 }
 #wrongAnswers{
-    font-size: 20px;
+    font-size: 25px;
     margin: 10px;
 }
 #unanswered {
-    font-size: 20px;
+    font-size: 25px;
     margin: 10px;
     margin-bottom: 50px;
 }
@@ -99,9 +95,14 @@ p{
     font-family: sans-serif;
     font-weight: bolder;
     margin-top: 10px;
-    /* padding-bottom: 150px;
-    padding-top: 50px; */
-    
+    cursor: pointer;
+    background-color: pink;
+    margin-left: 30%;    
+    margin-right: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: lightblue;
 }
 
 @media screen and (max-width:640px){
@@ -112,13 +113,11 @@ p{
     
 .thisChoice:hover{
     background-color: pink;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: solid;
+    border-color: lightblue;
 }
 .thisChoice {
-    margin: 10px;
-}
-
-#startAgainBtn:hover{
-    background-color: pink;
-
-    
+    margin: 10px;    
 }
