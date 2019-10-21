@@ -10,9 +10,11 @@ HOW TO PLAY:
 
     2.1 You will be given multiple options for each question.
 
-        2.1.1 If you click the correct answer, 'Correct!' will pop up.
+        2.1.1 If you click the correct answer, 
+        'Correct!' will pop up.
 
-        2.2.2 If you click the incorrect choice, it will say 'nope!' and will show the                 correct answer and the relatived image.
+        2.2.2 If you click the incorrect choice, it will say 'nope!' 
+        and will show the correct answer and the relatived image.
 
     2.2 If time runs out, it will pop up 'Out Of Time!' and show the correct answer and the      relatived image.
 
